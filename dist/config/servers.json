@@ -1,0 +1,61 @@
+{
+  "development": {
+    "connector": [
+      {
+        "id": "connector-server-1",
+        "host": "127.0.0.1",
+        "port": 3150,
+        "clientHost": "127.0.0.1",
+        "clientPort": 3010,
+        "frontend": true,
+        "args": " --inspect=10001"
+      }
+    ],
+    "chat": [
+      {
+        "id": "chat-server-1",
+        "host":"127.0.0.1",
+        "port": 3104,
+        "args": " --inspect=10002"
+      }
+    ],
+    "brnn": [
+      {
+        "id": "brnn-server-1",
+        "host": "127.0.0.1",
+        "port": 3105,
+        "args": " --inspect=10003"
+      }
+    ],
+    "jdnn": [
+      {
+        "id": "jdnn-server-1",
+        "host": "127.0.0.1",
+        "port": 3106,
+        "args": " --inspect=10004"
+      }
+    ],
+    "gate": [
+      {
+        "id": "gate-server-1",
+        "host": "127.0.0.1",
+        "clientPort": 3101,
+        "frontend": true,
+        "args": " --inspect=10005"
+      }
+    ]
+  },
+  "production": {
+    "connector": [
+      {
+        "id": "connector-server-1",
+        "host": "127.0.0.1",
+        "port": 3150,
+        "clientHost": "127.0.0.1",
+        "clientPort": 3010,
+        "frontend": true,
+        "args": " --inspect=10002"
+      }
+    ]
+  }
+}
