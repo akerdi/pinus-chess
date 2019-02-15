@@ -1,4 +1,4 @@
-/node_modules
+/game-server/node_modules
 .idea
 .next
 

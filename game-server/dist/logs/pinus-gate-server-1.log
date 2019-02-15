@@ -1,0 +1,68 @@
+[2019-02-15T14:14:44.363] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2019-02-15T14:14:44.417] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2019-02-15T14:14:44.418] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2019-02-15T14:14:44.425] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2019-02-15T14:14:44.542] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2019-02-15T14:14:44.545] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2019-02-15T14:14:44.545] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 136 ms
+[2019-02-15T14:14:44.546] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] [gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/aker/Learn/niuniuDemo0/game-server/game-server/dist/app.js","env":"development","id":"jdnn-server-1","host":"127.0.0.1","port":3106,"args":" --inspect=10004","serverType":"jdnn","remoterPaths":[{"namespace":"sys","serverType":"jdnn","path":"/Users/aker/Learn/niuniuDemo0/game-server/game-server/node_modules/pinus/dist/lib/common/remote/backend"}],"handlerPaths":[],"pid":52667}}
+[2019-02-15T14:15:42.188] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 1
+[2019-02-15T14:15:42.230] [INFO] logger - [gate-server-1 console] 11111::: OkPacket {
+  fieldCount: 0,
+  affectedRows: 1,
+  insertId: 10000133,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+[2019-02-15T14:15:42.241] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 1, route: gate.gateHandler.guestLogin, msg: {"code":1,"msg":"ok","data":{"userinfo":{"userid":10000133,"username":null,"usernick":"","phone":null,"password":null,"create_time":"2019-02-14T22:15:42.000Z","gold":30000,"roomcard":0,"sex":0,"image":null,"room_info":null},"token":"38b4dbb6354020343081811f155a2679deb92c8e0d94fe30bcdf0cb39faac407cbb986fd628c7f240f306b6d21cb1b60","localConnector":{"host":"127.0.0.1","port":3010},"remoteConnector":{"host":"127.0.0.1","port":3010}}}, receivers: [1], opts: {"type":"response"}
+[2019-02-15T14:15:42.252] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 1,uid:null,reason:1000
+[2019-02-15T14:16:05.290] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 2
+[2019-02-15T14:16:05.305] [INFO] logger - [gate-server-1 console] 11111::: OkPacket {
+  fieldCount: 0,
+  affectedRows: 1,
+  insertId: 10000134,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+[2019-02-15T14:16:05.308] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 36, route: gate.gateHandler.guestLogin, msg: {"code":1,"msg":"ok","data":{"userinfo":{"userid":10000134,"username":null,"usernick":"","phone":null,"password":null,"create_time":"2019-02-14T22:16:05.000Z","gold":30000,"roomcard":0,"sex":0,"image":null,"room_info":null},"token":"38b4dbb6354020343081811f155a26798bfa54ed8de7b17bf49622151ce66c83043abb02d12a2157891a1be9531904dc","localConnector":{"host":"127.0.0.1","port":3010},"remoteConnector":{"host":"127.0.0.1","port":3010}}}, receivers: [2], opts: {"type":"response"}
+[2019-02-15T14:16:05.319] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 2,uid:null,reason:1000
+[2019-02-15T14:16:27.390] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 3
+[2019-02-15T14:16:27.407] [INFO] logger - [gate-server-1 console] 11111::: OkPacket {
+  fieldCount: 0,
+  affectedRows: 1,
+  insertId: 10000135,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+[2019-02-15T14:16:27.410] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 51, route: gate.gateHandler.guestLogin, msg: {"code":1,"msg":"ok","data":{"userinfo":{"userid":10000135,"username":null,"usernick":"","phone":null,"password":null,"create_time":"2019-02-14T22:16:27.000Z","gold":30000,"roomcard":0,"sex":0,"image":null,"room_info":null},"token":"38b4dbb6354020343081811f155a26795b3f07df1674de2ae846f92755efdf77728890c249cddb1ebfa4af40308e3d9b","localConnector":{"host":"127.0.0.1","port":3010},"remoteConnector":{"host":"127.0.0.1","port":3010}}}, receivers: [3], opts: {"type":"response"}
+[2019-02-15T14:16:27.421] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 3,uid:null,reason:1000
+[2019-02-15T14:16:58.191] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 4
+[2019-02-15T14:16:58.208] [INFO] logger - [gate-server-1 console] 11111::: OkPacket {
+  fieldCount: 0,
+  affectedRows: 1,
+  insertId: 10000136,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+[2019-02-15T14:16:58.211] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 73, route: gate.gateHandler.guestLogin, msg: {"code":1,"msg":"ok","data":{"userinfo":{"userid":10000136,"username":null,"usernick":"","phone":null,"password":null,"create_time":"2019-02-14T22:16:58.000Z","gold":30000,"roomcard":0,"sex":0,"image":null,"room_info":null},"token":"38b4dbb6354020343081811f155a2679eccf90cefa222bfacb4b6226557b82bfa90b4fb2d7978e19b23813028266d9c2","localConnector":{"host":"127.0.0.1","port":3010},"remoteConnector":{"host":"127.0.0.1","port":3010}}}, receivers: [4], opts: {"type":"response"}
+[2019-02-15T14:16:58.222] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 4,uid:null,reason:1000
+[2019-02-15T14:17:13.945] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 5
+[2019-02-15T14:17:13.961] [INFO] logger - [gate-server-1 console] 11111::: OkPacket {
+  fieldCount: 0,
+  affectedRows: 1,
+  insertId: 10000137,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+[2019-02-15T14:17:13.964] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 97, route: gate.gateHandler.guestLogin, msg: {"code":1,"msg":"ok","data":{"userinfo":{"userid":10000137,"username":null,"usernick":"","phone":null,"password":null,"create_time":"2019-02-14T22:17:13.000Z","gold":30000,"roomcard":0,"sex":0,"image":null,"room_info":null},"token":"38b4dbb6354020343081811f155a26791f77ecb1bfb6ed89da836df4e5360624afc387c12abed3db0e0382c6b6f9158a","localConnector":{"host":"127.0.0.1","port":3010},"remoteConnector":{"host":"127.0.0.1","port":3010}}}, receivers: [5], opts: {"type":"response"}
+[2019-02-15T14:17:13.975] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 5,uid:null,reason:1000
