@@ -1,5 +1,5 @@
 该项目是抄录[大圣棋牌](https://github.com/ligun123/chess)
-由原js 版本转化为pinus 的game-server 版本。
+由原pinus Javascript 版本转化为 Typescript 版本。
 
 注意点：
 
